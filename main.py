@@ -1,5 +1,7 @@
-name = "Valueeeeee"
-print(name)
+name = "Paul"
+age = 12
+isAdult = False
 
-name = "Value2"
-print(name)
+print(type(name))
+print(type(age))
+print(type(isAdult))
