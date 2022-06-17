@@ -1,9 +1,4 @@
-name = "Paul"
-age = 12
-isAdult = False
-size = 1.63
+Fruits = ["banane", "fraise", "poire", "kiwi"]
 
-print(type(name))
-print(type(age))
-print(type(isAdult))
-print(type(size))
+print(Fruits[1])
+print(Fruits[-1])
