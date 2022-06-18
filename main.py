@@ -1,7 +1,12 @@
-transaction = ("vitalik.eth", 500,
-               "0xffffffffffffffffffffffffffffffffffffffff")
+user = dict()
 
-taker = transaction[0]
-maker = transaction[2]
+user["name"] = 'Paul'
+user["age"] = 12
+user["foo"] = 'bar'
 
-print(transaction)
+print(user)
+# user.pop("foo")
+del user["foo"]
+print("foo" in user)
+
+print(user["age"])
