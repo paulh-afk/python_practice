@@ -1,4 +1,18 @@
-Fruits = ["banane", "fraise", "poire", "kiwi"]
+from array import array
 
-print(Fruits[1])
-print(Fruits[-1])
+
+langage = "Python"
+
+print(langage[4])
+
+Fruits = ["poire", "fraise", "banane"]
+print(type(Fruits))
+print(len(Fruits))
+
+Fruits.append("kiwi")
+print(len(Fruits))
+
+print(Fruits)
+
+Fruits.sort()
+print(Fruits)
