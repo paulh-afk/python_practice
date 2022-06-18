@@ -1,15 +1,7 @@
-langage = "Python"
+transaction = ("vitalik.eth", 500,
+               "0xffffffffffffffffffffffffffffffffffffffff")
 
-print(langage[4])
+taker = transaction[0]
+maker = transaction[2]
 
-Fruits = ["poire", "fraise", "banane"]
-print(type(Fruits))
-print(len(Fruits))
-
-Fruits.append("kiwi")
-print(len(Fruits))
-
-print(Fruits)
-
-Fruits.sort()
-print(Fruits)
+print(transaction)
