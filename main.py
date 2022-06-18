@@ -1,6 +1,3 @@
-from array import array
-
-
 langage = "Python"
 
 print(langage[4])
