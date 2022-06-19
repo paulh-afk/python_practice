@@ -1,12 +1,14 @@
-user = dict()
+from tkinter import W
 
-user["name"] = 'Paul'
-user["age"] = 12
-user["foo"] = 'bar'
 
-print(user)
-# user.pop("foo")
-del user["foo"]
-print("foo" in user)
+weeks = ["Sunday", "Monday", "Tuesday", "Wednesday",
+         "Thursday", "Friday", "Saturday"]
 
-print(user["age"])
+weekday = 0
+
+if isinstance(weekday, int) and weekday == 0 or weekday == 6:
+    print("Week-end : ", weeks[weekday])
+elif isinstance(weekday, int) and weekday < 6 and weekday > 0:
+    print("Week : ", weeks[weekday])
+else:
+    print("Not valid value")
