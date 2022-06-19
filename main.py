@@ -1,6 +1,3 @@
-from tkinter import W
-
-
 weeks = ["Sunday", "Monday", "Tuesday", "Wednesday",
          "Thursday", "Friday", "Saturday"]
 
