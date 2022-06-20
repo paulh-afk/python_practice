@@ -1,11 +1,12 @@
 weeks = ["Sunday", "Monday", "Tuesday", "Wednesday",
          "Thursday", "Friday", "Saturday"]
 
-weekday = 0
+for i in range(len(weeks)):
+    print(f"{i + 1} - {weeks[i]}")
 
-if isinstance(weekday, int) and weekday == 0 or weekday == 6:
-    print("Week-end : ", weeks[weekday])
-elif isinstance(weekday, int) and weekday < 6 and weekday > 0:
-    print("Week : ", weeks[weekday])
-else:
-    print("Not valid value")
+x = 2
+y = 10
+
+while(x != y):
+    x += 2
+    print(x)
