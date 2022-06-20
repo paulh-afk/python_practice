@@ -1,12 +1,17 @@
-weeks = ["Sunday", "Monday", "Tuesday", "Wednesday",
-         "Thursday", "Friday", "Saturday"]
+def multiply(a, b):
+    return a * b
 
-for i in range(len(weeks)):
-    print(f"{i + 1} - {weeks[i]}")
 
-x = 2
-y = 10
+def total(account):
+    sum = 0
+    for money in account:
+        sum += money
+    return sum
 
-while(x != y):
-    x += 2
-    print(x)
+
+result = multiply(-3, 9)
+print(result)
+
+my_account = [50.50, 25, -40, 150]
+my_money = total(my_account)
+print(my_money)
