@@ -1,5 +1,6 @@
 # CSV file
 data.csv
+output.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
